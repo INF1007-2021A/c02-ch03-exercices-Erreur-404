@@ -3,7 +3,9 @@
 
 def dissipated_power(voltage, resistance):
 	# TODO: Calculer la puissance dissipée par la résistance.
-	return 0
+	power = voltage**2 / resistance
+	return power
+
 
 def orthogonal(v1, v2):
 	# TODO: Retourner vrai si les vecteurs sont orthogonaux, faux sinon.
@@ -11,10 +13,12 @@ def orthogonal(v1, v2):
 	v1[1] # Pour accéder au Y
 	pass
 
+
 def average(values):
 	# TODO: Calculer la moyenne des valeurs positives (on ignore les valeurs strictement négatives).
 	for v in values:
 		pass # La variable v contient une valeur de la liste.
+
 
 def bills(value):
 	# TODO: Calculez le nombre de billets de 20$, 10$ et 5$ et pièces de 1$ à remettre pour représenter la valeur.
@@ -29,6 +33,7 @@ def bills(value):
 			pass
 
 	return (twenties, tens, fives, twos, ones);
+
 
 if __name__ == "__main__":
 	print(dissipated_power(69, 420))
