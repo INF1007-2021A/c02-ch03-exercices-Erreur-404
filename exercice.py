@@ -46,6 +46,13 @@ def bills(value):
 	return (twenties, tens, fives, ones)
 
 
+def new_function(x):
+	# This is a test
+	this = 'this'
+	return this
+
+
+
 if __name__ == "__main__":
 	print(dissipated_power(69, 420))
 	print(orthogonal((1, 1), (-1, 1)))
